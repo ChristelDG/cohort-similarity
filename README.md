@@ -1,5 +1,5 @@
 # cohort-similarity
-Github linked to our paper "Construction of cohorts of similar patients from automatic extraction of medical concepts""
+Github linked to our paper "Construction of cohorts of similar patients from automatic extraction of medical concepts"
 This code prsents all the steps Tof the computation of similarity cohort. 
 Our original health dataset is based on the AP-HP data wharehouse.
 
