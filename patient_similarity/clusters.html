@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Clusters for the article</title>
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <link href="./style.css" rel="stylesheet" media="screen"/>    
+    <script type="text/javascript" src="/dist/js/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="/dist/js/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/d3js/7.0.0/d3.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/d3-simple-slider"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.0/math.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+    <script type="text/javascript" src="./vars.js"></script>    
+    <script type="text/javascript" src="./nephro_lupus_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./nephro_lupus.js"></script>    
+    <script type="text/javascript" src="./pins_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./PINS.js"></script>    
+    <script type="text/javascript" src="./osteoporose_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./osteoporose.js"></script>    
+    <script type="text/javascript" src="./infectious_lung_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./infectious_lung.js"></script>    
+    <script type="text/javascript" src="./use_cases_vars.js"></script>
+    
+  </head>
+  <body>
+    <div style="width:1084px">
+      <div>
+        <img src="./img/osteo.png"/>
+      </div>
+      <div>
+        <p><strong>Figure 5</strong>: Unsupervised ascending hierarchical clustering based on EMD distance of EHRs on the "osteomuscular" and "nutritional" labels (derived from the MeSH classification), only patients having the labels "osteomuscular" and "nutritional" are represented here, (corresponding to 119 patients, not 256). All patients with osteoporosis were labeled "OSTEO" in the orange cluster. Other patients present in this cluster without osteoporosis explicitly written present "osteopenia" (all 4 first patients), of several vertebral fractures.</p>
+      </div>
+    </div>
+    <div style="width:1084px">
+      <div>
+        <img src="./img/lung_inf.png"/>
+      </div>
+      <div>
+        <p><strong>Figure 6</strong>: Unsupervised ascending hierarchical clustering based on EMD distance of EHRs on the "respiratory" and "infection" axes (derived from the MeSH classification). All patients with lung infections were labeled "LUNG_INF" in the green cluster. Some outliers may be noticed, on the very left patient had a "purulent pleurisy", and one had a "pulmonary tuberculosis". The rest of patients on the left of the green cluster all had other linked manifestations such as "bronchitis", "para-influenza infection", "Bronchoalveolar lavage positive for k. pneumoniae and oropharyngeal flora"... </p>
+      </div>
+    </div>
+  </body>
+
+    
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patient similarity demo</title>
+    <link href="/dist/css/bootstrap.min.css" rel="stylesheet" media="screen"/>
+    <link href="./style.css" rel="stylesheet" media="screen"/>    
+    <script type="text/javascript" src="/dist/js/jquery-2.1.3.js"></script>
+    <script type="text/javascript" src="/dist/js/bootstrap.js"></script>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/d3js/7.0.0/d3.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/d3-simple-slider"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.0/math.min.js"></script>
+    <script type="text/javascript" src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script type="text/javascript" src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+    <script type="text/javascript" src="./vars.js"></script>    
+    <script type="text/javascript" src="./nephro_lupus_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./nephro_lupus.js"></script>    
+    <script type="text/javascript" src="./pins_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./PINS.js"></script>    
+    <script type="text/javascript" src="./osteoporose_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./osteoporose.js"></script>    
+    <script type="text/javascript" src="./infectious_lung_word_cloud_data.js"></script>    
+    <script type="text/javascript" src="./infectious_lung.js"></script>    
+    <script type="text/javascript" src="./use_cases_vars.js"></script>
+    
+  </head>
+  <body>
+    
+    <div id="header">
+      <h1>Patient similarity demo</h1>
+      
+      <div class="container-fluid" id="links">      
+      </div>
+      <div class="alert alert-warning alert-dismissible show" role="alert">
+        <p>Word clouds are not compatible with some old versions of <strong>Safari browser</strong>. If you don't see word clouds when going through this demonstration, please consider using Firefox or Chrome browsers.
+        </p>
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">Close &times;</span>
+        </button>
+      </div>
+      <div class="container" style="text-align:center">
+        <!--<div class="col-sm-3 vcenter buttons">
+        </div>-->
+        <!--<div class="col-sm-3 vcenter buttons">
+          <a role="button" id="button_clusters" class="btn btn-block btn-primary btn-lg" href="./clusters.html" target="_blank">Show clusters</a>
+        </div>
+        -->
+      </div>
+    </div>
+    
+    <div id="demo">
+    </div>
+  </body>
+  <script type="text/javascript" src="./heatmap.js"></script>    
+
+    
+</html>
